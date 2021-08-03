@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #306BF3;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #F3FAFB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container {
+  width: 95vw;
+  max-width: 1000px;
+  background-color: #fff;
+  border: 20px solid #dce7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+@media (max-width: 992px) {
+  body .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80vw;
+  }
+}
+
+body .container form {
+  border-right: 1px solid #DAE1F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 44px 51px 40px 51px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media (max-width: 992px) {
+  body .container form {
+    border-right: none;
+  }
+}
+
+body .container form .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #141c2c;
+  border: 2px solid #141c2c;
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+  font-weight: 700;
+  margin: 20px 0px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  font-family: inherit;
+}
+
+body .container form .btn.btn-transparent {
+  background-color: transparent;
+  border-color: #ecf2ff;
+  color: #141c2c;
+}
+
+body .container form .btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+body .container form small {
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+body .container form .form-control {
+  margin: 10px 0;
+  width: 100%;
+}
+
+body .container form .form-control label {
+  display: inline-block;
+  margin-bottom: 3px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+body .container form .form-control input:not([type="checkbox"]) {
+  background-color: transparent;
+  border: 2px solid #ecf2ff;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+  border-radius: 4px;
+}
+
+body .container form .checkbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+body .container form .checkbox-container label {
+  color: #7a7e8c;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+body .container form .checkbox-container input {
+  height: 20px;
+  width: 15px;
+}
+
+body .container form .checkbox-container a {
+  margin-left: auto;
+}
+
+body .container form small {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+body .container form small a {
+  margin-left: 5px;
+}
+
+body .features {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+  padding: 31px 40px 40px 40px;
+}
+
+body .features .feature {
+  position: relative;
+  margin: 40px 0px;
+  padding-left: 30px;
+}
+
+body .features .feature i {
+  color: #2762eb;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+
+body .features .feature h3 {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+body .features .feature p {
+  margin: 5px 0;
+  line-height: 1.7;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
